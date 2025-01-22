@@ -12,5 +12,5 @@ My code implemented:
 4. functional tests: [/tests/2_functional-tests.js](https://github.com/llh66/QA-JS-metric-imperial-converter/blob/main/tests/2_functional-tests.js)
 
 Example:
-- input: 1.5/3gal
-- output: {"initNum":0.5,"initUnit":"gal","returnNum":1.89271,"returnUnit":"L","string":"0.5 gallons converts to 1.89271 liters"}
+- HTML request: GET /api/convert?input=1.5/3gal
+- response: {"initNum":0.5,"initUnit":"gal","returnNum":1.89271,"returnUnit":"L","string":"0.5 gallons converts to 1.89271 liters"}
